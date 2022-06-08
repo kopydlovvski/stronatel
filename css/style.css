@@ -1,0 +1,40 @@
+.body{
+    background-image: url(../images/tryby.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10vh;
+}
+.navTop{
+    display: flex;
+    height: 10vh;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.navButton{
+    padding: 1%;
+    margin: 1%;
+    display: inline-table;
+    background-color: transparent;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1vw;
+    color: black;
+    transition: 0.5s;
+    
+}
+
+.navButton:hover{
+    color: rgb(102, 102, 102);
+    transition: 0.5s;
+    transform: scale(1.5);
+    transition: all 500ms;
+}
